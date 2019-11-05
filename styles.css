@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: #1A1A1D;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title {
+  padding: 0 5%;
+  margin-top: 3%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title {
+  font-size: 5.3rem;
+  margin: 0 20%;
+}
+
+.gameIcons {
+  padding: 5%;
+}
+
+.gameIcons:hover {
+  color: #6F2232;
+}
+
+#result {
+  /* padding: 0 5%; */
+  font-family: 'Nunito', sans-serif;
+  /* display: inline; */
+}
+
+#player {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.player-div {
+  background-color: #0f2862;
+  display: inline-block;
+  margin-left: 0;
+  width: 50%;
+  float: left;
+}
+
+#computer {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.computer-div {
+  background-color: #eb1736;
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+.h1-result {
+  padding-top: 7%;
+  font-size: 2rem;
+}
+
+.pressed-player {
+  box-shadow: 0 0 500px #4285F4;
+  /* background-color: blue; */
+}
+
+.pressed-computer {
+  box-shadow: 0 0 500px #eb1736;
+  /* background-color: red; */
+}
